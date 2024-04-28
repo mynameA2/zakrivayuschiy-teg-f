@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --background-colot-theme: #000000;
+    --background-image: url(../images/304a38360586b725437a471a47281c02.png);
+    --background-image-gradient: #007F0C, #004306;
+    --main-border-style: 2px solid #00CC14;
+    --text-color: #00CC14;
+    --svg-color: #00CC14;
+    --pressstart2p-regular: "Press Star 2P", sans-serif;
+    --inter-variable: "Inter-Variable", sans-serif;
+    --logo-color: rgb(0, 204, 20, 0.5);
+    --logo-border: 1px #000;
+    --font-inter-bold: 'wght' 785, 'slnt' 0;
+    --font-inter-normal: 'wght' 465, 'slnt' 0;
+    --main__img-logo-opc: 1;
+    --blend-mode-button: #00cc14;
+    --heart-contour: #00cc14; 
+    --heart-main-body: #ff0000;
+    
+    
+}
