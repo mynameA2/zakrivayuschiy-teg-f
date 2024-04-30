@@ -4,14 +4,14 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
-:root .theme-dark {
+.theme-dark {
     --background-colot-theme: #000000;
     --background-image: url(../images/304a38360586b725437a471a47281c02.png);
     --background-image-gradient: #007F0C, #004306;
     --main-border-style: 2px solid #00CC14;
     --text-color: #00CC14;
     --svg-color: #00CC14;
-    --pressstart2p-regular: "Press Star 2P", sans-serif;
+    --pressstart2p-regular: "Press Star 2P", fantasy;
     --inter-variable: "Inter-Variable", sans-serif;
     --logo-color: rgb(0, 204, 20, 0.5);
     --logo-border: 1px #000;
@@ -22,40 +22,42 @@
     --heart-contour: #00cc14; 
 }
 
-:root .theme-light {
+.theme-light {
     --background-colot-theme: #ffffff;
     --background-image: url(../images/77a1749122eb9020559ad46f35cd3193.png);
     --background-image-gradient: #e7e7e7, #1a1a1a;
     --main-border-style: 2px solid #000000;
     --text-color: #000000;
     --svg-color: #000000;
-    --pressstart2p-regular: "Press Star 2P", sans-serif;
+    --pressstart2p-regular: "Press Star 2P", fantasy;
     --inter-variable: "Inter-Variable", sans-serif;
-    --logo-color: rgb(0, 0, 0, 0.5);
+    --logo-color: rgb(0, 0, 0, 0.8);
     --logo-border: 1px #ffffff;
     --font-inter-bold: 'wght' 700;
     --font-inter-normal: 'wght' 400;
     --main__img-logo-opc: 0.6;
     --blend-mode-button: #fff;
     --heart-contour: #000000; 
+    --heart-main-body: #ff0000;
 }
 
 @media (prefers-color-scheme: light) {
-    :root {
+    :root .theme-light {
         --background-colot-theme: #ffffff;
-        --background-image: url(../images/background.png);
+        --background-image: url(../images/77a1749122eb9020559ad46f35cd3193.png);
         --background-image-gradient: #e7e7e7, #1a1a1a;
         --main-border-style: 2px solid #000000;
         --text-color: #000000;
         --svg-color: #000000;
-        --pressstart2p-regular: "Press Star 2P", sans-serif;
+        --pressstart2p-regular: "Press Star 2P", fantasy;
         --inter-variable: "Inter-Variable", sans-serif;
-        --logo-color: rgb(0, 0, 0, 0.5);
+        --logo-color: rgb(0, 0, 0, 0.8);
         --logo-border: 1px #ffffff;
         --font-inter-bold: 'wght' 700;
         --font-inter-normal: 'wght' 400;
         --main__img-logo-opc: 0.6;
         --blend-mode-button: #fff;
         --heart-contour: #000000;
+        --heart-main-body: #ff0000;
     }
 }

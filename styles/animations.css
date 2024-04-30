@@ -52,27 +52,28 @@ animation: arrow 0.5s infinite alternate ease-in-out;
     transition: fill 0.3s linear 0.05s;
 }  
 
-.like-icon:active path.main-body {
+.like-icon:active path.core path.main-body path.contour {
     fill: var(--heart-main-body);
     transition: fill 0.3s linear 0.05s; 
 }
 
-.like-icon.is-liked path.core {
+.like-icon.is-liked .core {
     fill: var(--heart-main-body);
     transition: fill 0.3s linear; 
 }
 
-.like-icon.is-liked path.main-body {
+.like-icon.is-liked .main-body {
     fill: var(--heart-main-body);
     transition: fill 0.3s linear 0.05s;
 }
 
-.like-icon.is-liked path.countour {
+.like-icon.is-liked .countour {
     fill: var(--heart-main-body);
     transition: fill 0.3s linear 0.06s;
 }
 
-.like-icon.is-liked path.heart {
+.like-icon.is-liked .heart {
+    fill: var(--heart-main-body);
     animation: scale-heart 0.3s ease-in 0.1s 1 alternate;
 }
 
@@ -85,7 +86,7 @@ animation: arrow 0.5s infinite alternate ease-in-out;
     }
   }
 
-.like-icon.is-liked path.sparks {
+.like-icon.is-liked .sparks {
     animation: sparks-heart 0.3s ease-in 0.3s 1 alternate;
 }
 
