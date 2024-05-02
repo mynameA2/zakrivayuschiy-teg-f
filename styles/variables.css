@@ -1,8 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --background-colot-theme: #000000;
-    --background-image: url(../images/304a38360586b725437a471a47281c02.png);
-    --background-image-gradient: #007F0C, #004306;
+    --background-colot-theme: #000;
+    --background-image-gradient: repeating-linear-gradient(90deg, #000, transparent 2px), repeating-linear-gradient(to top,#007f0c,#004306 2px);;
     --main-border-style: 2px solid #00CC14;
     --text-color: #00CC14;
     --svg-color: #00CC14;

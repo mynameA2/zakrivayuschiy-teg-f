@@ -5,9 +5,8 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 .theme-dark {
-    --background-colot-theme: #000000;
-    --background-image: url(../images/304a38360586b725437a471a47281c02.png);
-    --background-image-gradient: #007F0C, #004306;
+    --background-colot-theme: #000;
+    --background-image-gradient: repeating-linear-gradient(90deg, #000, transparent 2px), repeating-linear-gradient(to top,#007f0c,#004306 2px);
     --main-border-style: 2px solid #00CC14;
     --text-color: #00CC14;
     --svg-color: #00CC14;
@@ -19,13 +18,13 @@
     --font-inter-normal: 'wght' 465, 'slnt' 0;
     --main__img-logo-opc: 1;
     --blend-mode-button: #00cc14;
-    --heart-contour: #00cc14; 
+    --heart-contour: #00cc14;
+    --heart-main-body: #ff0000; 
 }
 
 .theme-light {
     --background-colot-theme: #ffffff;
-    --background-image: url(../images/77a1749122eb9020559ad46f35cd3193.png);
-    --background-image-gradient: #e7e7e7, #1a1a1a;
+    --background-image-gradient: repeating-linear-gradient(90deg, #d3d3d3, transparent 2px), repeating-linear-gradient(to top,#e7e7e7,#1a1a1a 2px);
     --main-border-style: 2px solid #000000;
     --text-color: #000000;
     --svg-color: #000000;
@@ -44,8 +43,7 @@
 @media (prefers-color-scheme: light) {
     :root .theme-light {
         --background-colot-theme: #ffffff;
-        --background-image: url(../images/77a1749122eb9020559ad46f35cd3193.png);
-        --background-image-gradient: #e7e7e7, #1a1a1a;
+        --background-image-gradient: repeating-linear-gradient(90deg, ##d3d3d3, transparent 2px), repeating-linear-gradient(to top,##e7e7e7,##1a1a1a 2px);
         --main-border-style: 2px solid #000000;
         --text-color: #000000;
         --svg-color: #000000;
