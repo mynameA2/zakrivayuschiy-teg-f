@@ -28,6 +28,7 @@ animation: arrow 0.5s infinite alternate ease-in-out;
   }
 
 .like-icon.is-liked .heart {
+    transform-origin: center;
     fill: var(--heart-main-body);
     animation: scale-heart 0.3s ease-in 0.1s 1 alternate;
 }

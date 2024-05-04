@@ -1,7 +1,10 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
     --background-colot-theme: #000;
-    --background-image-gradient: repeating-linear-gradient(90deg, #000, transparent 2px), repeating-linear-gradient(to top,#007f0c,#004306 2px);;
+    --background-image-gradient: 
+    repeating-linear-gradient(90deg, #000 0 2px, rgb( 0 0 0 / 0) 2px 4px), 
+    repeating-linear-gradient(180deg, #000 0 2px, rgb( 0 0 0 / 0) 2px 4px), 
+    linear-gradient(to top,#007f0c 0%,#004306 100%);
     --main-border-style: 2px solid #00CC14;
     --text-color: #00CC14;
     --svg-color: #00CC14;
@@ -13,6 +16,6 @@
     --font-inter-normal: 'wght' 465, 'slnt' 0;
     --main__img-logo-opc: 1;
     --blend-mode-button: #00cc14;
-    --heart-contour: #00cc14; 
-    --heart-main-body: #ff0000;
+    --heart-contour: #00cc14;
+    --heart-main-body: #ff0000; 
 }
